@@ -29,8 +29,8 @@ if __name__ == "__main__":
     print(jill.owed)
     print(jack.owed)
 
-    print(jack.pay)
-    print(jill.pay)
+    print(jack.pay())
+    print(jill.pay())
     
     print(Employee.numEmployees)
 
