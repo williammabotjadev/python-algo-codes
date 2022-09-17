@@ -16,4 +16,9 @@ print(test_two.find("woman"))
 test_three = "123 is the order of things"
 
 for i in test_three:
-    print(i.isalnum())
+    print(i.isalnum(), end=" ")
+
+test_four = "123 is the order of things"
+
+for k in test_four:
+    print(k.isalpha(), end=" ")
