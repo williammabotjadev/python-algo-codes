@@ -63,6 +63,6 @@ print(sorted_bilingual_comp)
 def lastLetter(string):
     return string[len(string) - 1]
 
-sorted_last_letter_func = sorted(d, key=lastLetter)
+sorted_last_letter_func = sorted(d_one.values(), key=lastLetter)
 
 print(sorted_last_letter_func)
