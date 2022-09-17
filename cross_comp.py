@@ -4,3 +4,4 @@ lst = [
 ]
 
 res = [x * y for x in lst[0] for y in lst[1]]
+print(res)
