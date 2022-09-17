@@ -11,5 +11,5 @@ words = s.split()
 for word in words:
     dd[word] += 1
 
-for k, v in dd:
+for k, v in dd.items():
     print(f"{k} : {v}")
