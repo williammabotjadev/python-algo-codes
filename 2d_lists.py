@@ -5,5 +5,6 @@ nested_list = [
 ]
 
 for i in nested_list:
+    print("\n")
     for j in i:
         print(j, end=" ")
