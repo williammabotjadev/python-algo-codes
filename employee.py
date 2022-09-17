@@ -20,10 +20,21 @@ class Employee(object):
         return f"Paid {self.name}"
 
 if __name__ == "__main__":
-    bob = Employee("Bob", 10.50)
-    print(bob.hours(40))
-    print(bob.pay())
-    print(bob.owed)
+    jack = Employee("Jack", 13.5)
+    jill = Employee("Jill", 18.5)
+
+    jill.hours(20)
+    jack.hours(30)
+
+    print(jill.owed)
+    print(jack.owed)
+
+    print(jack.pay)
+    print(jill.pay)
+    
     print(Employee.numEmployees)
-    del bob
+
+    del jack 
+    del jill 
+
     print(Employee.numEmployees)
