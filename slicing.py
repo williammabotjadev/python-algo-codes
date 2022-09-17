@@ -15,3 +15,9 @@ print(status[1 + 2])
 for i in enumerate(status[0:len(status)]):
     print(i)
 
+# String Builder 
+
+greeting = "hello world"
+
+print(greeting[5:0] + "wonderful" + greeting[0:5])
+
