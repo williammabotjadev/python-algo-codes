@@ -19,18 +19,32 @@ class Employee(object):
         self.owed = 0
         return f"Paid {self.name}"
 
+def specialEmployee(Employee):
+    def __init__(self, name, rate, bonus):
+        Employee.__init__(self, name, rate)
+        self.owed = 0 
+        self.bonus = bonus 
+
+    def hours(self, numHours):
+        self.owed = numHours * self.rate + self.bonus 
+        return f"{numHours} hours worked"
+
 if __name__ == "__main__":
     jack = Employee("Jack", 13.5)
     jill = Employee("Jill", 18.5)
+    joe = specialEmployee("Joe", 20.5, 20)
 
     jill.hours(20)
     jack.hours(30)
+    joe.hours(35)
 
     print(jill.owed)
     print(jack.owed)
+    print(joe.owed)
 
     print(jack.pay())
     print(jill.pay())
+    print(joe.pay())
     
     print(Employee.numEmployees)
 
@@ -38,5 +52,6 @@ if __name__ == "__main__":
 
     del jack 
     del jill 
+    del joe 
 
     print(Employee.numEmployees)
