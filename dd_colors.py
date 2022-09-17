@@ -10,3 +10,11 @@ def isprimary(color):
     else:
         return False 
     
+s = "Red Green Blue Purple Yellow Pink Black White"
+
+colors = s.split()
+
+for color in colors:
+    dd[color] = isprimary(color)
+
+print(dd)
