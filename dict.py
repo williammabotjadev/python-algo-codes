@@ -59,3 +59,10 @@ print(sorted_bilingual)
 sorted_bilingual_comp = [d_one[i] for i in sorted(d_one, key=d.__getitem__)]
 
 print(sorted_bilingual_comp)
+
+def lastLetter(string):
+    return string[len(string) - 1]
+
+sorted_last_letter_func = sorted(d, key=lastLetter)
+
+print(sorted_last_letter_func)
