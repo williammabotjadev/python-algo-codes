@@ -9,3 +9,9 @@ print(status[::-1])
 
 print(status[::len(status) - 1])
 print(status[1 + 2])
+
+# Enumerate Characters
+
+for i in enumerate(status[0:len(status) - 1]):
+    print(i)
+
