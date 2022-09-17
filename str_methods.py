@@ -47,3 +47,7 @@ print(test_six.upper())
 test_seven = "ABLE WAS I ERE I SAW ELBA"
 
 print(test_seven.lower())
+
+test_eight = "old world order"
+
+print(test_eight.replace("old", "new"))
