@@ -18,3 +18,11 @@ for color in colors:
     dd[color] = isprimary(color)
 
 print(dd)
+
+for color, status in dd.items():
+    status_text = ""
+    if status:
+        status_text = "is primary"
+    else:
+        status_text = "is not primary"
+    print(f"{color} {status_text}")
