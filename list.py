@@ -16,3 +16,7 @@ print(col.count('a'))
 print(col.index('a'))
 
 print(col.index('a', 4, len(col)))
+
+col.insert('z', 4)
+
+print(col)
