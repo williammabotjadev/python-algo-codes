@@ -8,3 +8,5 @@ print(x is y)
 x = y 
 
 print(x)
+
+print(x == y)
