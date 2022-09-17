@@ -26,3 +26,5 @@ for k, v in d.items():
 new_od = OrderedDict(sorted(d.items(), key=lambda x: (4 * x[1]) - x[1] ** 2))
 
 print(new_od)
+
+print(new_od.values())
