@@ -11,3 +11,9 @@ def greeting(lang):
 res = greeting(input_val)
 
 print(res)
+
+# User defined objects are objects
+
+lst = [greeting("en"), greeting("fr"), greeting("esp")]
+
+print(lst[1])
