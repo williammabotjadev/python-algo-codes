@@ -19,5 +19,5 @@ for i in enumerate(status[0:len(status)]):
 
 greeting = "hello world"
 
-print(greeting[5:0] + "wonderful" + greeting[0:5])
+print(greeting[:5] + "wonderful" + greeting[5:])
 
