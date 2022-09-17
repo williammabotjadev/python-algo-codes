@@ -43,3 +43,7 @@ print(res)
 test_six = "able was i ere i saw elba"
 
 print(test_six.upper())
+
+test_seven = "ABLE WAS I ERE I SAW ELBA"
+
+print(test_seven.lower())
