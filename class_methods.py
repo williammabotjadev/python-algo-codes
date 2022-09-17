@@ -12,7 +12,7 @@ class Bexp(Aexp):
 class Zexp(object):
     __base = 2
     def __exp(self):
-        return(self.base ** 2) 
+        return(self.__base ** 2) 
     
 if __name__ == "__main__":
     exp = Aexp()
@@ -22,4 +22,4 @@ if __name__ == "__main__":
     print(bexp.exp(2))
 
     z = Zexp()
-    print(z.__exp())
+    print(z._Zexp__exp())
