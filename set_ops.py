@@ -15,3 +15,7 @@ print('ab' not in s_one)
 
 for i in s_one:
     print(i)
+
+s_one.add(frozenset(s_two))
+
+print(s_one)
