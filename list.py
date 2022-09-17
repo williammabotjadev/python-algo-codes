@@ -32,3 +32,7 @@ print(col)
 col.reverse()
 
 print(col)
+
+print(sorted(col))
+
+print(col.sort(reverse=True))
