@@ -39,3 +39,7 @@ list = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o
 res = "".join(list)
 
 print(res)
+
+test_six = "able was i ere i saw elba"
+
+print(test_six.lower())
