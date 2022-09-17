@@ -20,3 +20,7 @@ print(col.index('a', 4, len(col)))
 col.insert(4, 'z')
 
 print(col)
+
+print(col.pop('z'))
+
+print(col.pop())
