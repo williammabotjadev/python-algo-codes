@@ -4,6 +4,6 @@ print(test.count("a"))
 
 print(test.count("ab"))
 
-test_one = "A   Brown   Quick   Fox"
+test_one = "A\tBrown\tQuick\tFox"
 
-print(test_one.expandtabs(4))
+print(test_one.expandtabs(1))
