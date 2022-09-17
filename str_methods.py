@@ -13,3 +13,7 @@ test_two = "The man on the moon"
 print(test_two.find("man"))
 print(test_two.find("woman"))
 
+test_three = "123 is the order of things"
+
+for i in test_three:
+    print(i.isalnum(i))
