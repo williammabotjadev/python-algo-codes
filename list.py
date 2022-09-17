@@ -35,4 +35,5 @@ print(col)
 
 print(sorted(col))
 
-print(col.sort(reverse=True))
+new_col = col.sort(reverse=True)
+print(new_col)
