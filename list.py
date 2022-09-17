@@ -17,6 +17,6 @@ print(col.index('a'))
 
 print(col.index('a', 4, len(col)))
 
-col.insert('z', 4)
+col.insert(4, 'z')
 
 print(col)
