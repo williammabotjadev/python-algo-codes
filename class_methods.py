@@ -6,3 +6,6 @@ class Aexp(object):
     def exp(cls, x):
         return(cls.base ** x)
 
+if __name__ == "__main__":
+    exp = Aexp()
+    print(exp.exp(2))
