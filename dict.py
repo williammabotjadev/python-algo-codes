@@ -42,3 +42,16 @@ print(sort_by_comp)
 sort_by_vals_rev = sorted(list(d), key=d.__getitem__, reverse=True)
 
 print(sort_by_vals_rev)
+
+d_one = {
+    "one": "uno",
+    "two": "deux",
+    "three": "trois",
+    "four": "quadre",
+    "five": "sinq",
+    "six": "six"
+}
+
+sorted_bilingual = sorted(d_one, key=d.__getitem__)
+
+print(sorted_bilingual)
