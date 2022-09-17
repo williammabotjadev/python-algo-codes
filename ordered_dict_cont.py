@@ -19,3 +19,8 @@ kvs = [
 d.update(kvs)
 
 print(d)
+
+for k, v in d.items():
+    print(f"{k} : {v}")
+
+    
