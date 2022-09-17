@@ -19,7 +19,7 @@ class Employee(object):
         self.owed = 0
         return f"Paid {self.name}"
 
-def specialEmployee(Employee):
+class specialEmployee(Employee):
     def __init__(self, name, rate, bonus):
         Employee.__init__(self, name, rate)
         self.owed = 0 
@@ -32,7 +32,7 @@ def specialEmployee(Employee):
 if __name__ == "__main__":
     jack = Employee("Jack", 13.5)
     jill = Employee("Jill", 18.5)
-    joe = specialEmployee("Joe", 20.5, 20)
+    joe = specialEmployee("Joe")
 
     jill.hours(20)
     jack.hours(30)
