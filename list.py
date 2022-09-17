@@ -24,3 +24,11 @@ print(col)
 print(col.pop(4))
 
 print(col.pop())
+
+col.remove('a')
+
+print(col)
+
+col.reverse()
+
+print(col)
