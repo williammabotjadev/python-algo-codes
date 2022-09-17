@@ -4,3 +4,9 @@ col = list(s)
 col.append(' - Napoleon')
 
 print(" ".join(col))
+
+l = []
+
+l.extend(s)
+
+print(l)
