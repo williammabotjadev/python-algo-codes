@@ -20,4 +20,8 @@ def wordcount(fname):
     return(count) 
 
 print(wordcount('word_count.txt'))
+
+print("\n")
+
+print(wordcount('freecodecamp.txt'))
             
