@@ -38,6 +38,8 @@ if __name__ == "__main__":
     jack.hours(30)
     joe.hours(35)
 
+    print(isinstance(joe, jill))
+
     print(jill.owed)
     print(jack.owed)
     print(joe.owed)
