@@ -55,3 +55,7 @@ d_one = {
 sorted_bilingual = sorted(d_one, key=d.__getitem__)
 
 print(sorted_bilingual)
+
+sorted_bilingual_comp = [d_one[i] for i in sorted(d_one, key=d.__getitem__)]
+
+print(sorted_bilingual_comp)
