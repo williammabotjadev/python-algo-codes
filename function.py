@@ -17,3 +17,11 @@ print(res)
 lst = [greeting("en"), greeting("fr"), greeting("esp")]
 
 print(lst[1])
+
+# Using Function as an Argument
+
+def call_func(f):
+    lang = "en"
+    return f(lang)
+
+print(call_func(greeting))
