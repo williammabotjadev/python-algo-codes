@@ -2,7 +2,10 @@
 
 from collections import OrderedDict
 
-d = OrderedDict("abracadabra")
+d = OrderedDict({
+    "one": 1,
+    "two": 2
+})
 
 print(d)
 
