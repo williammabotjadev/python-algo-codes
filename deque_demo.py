@@ -10,3 +10,7 @@ d.extend("xyz")
 print(d)
 d.extendleft("abc")
 print(d)
+
+print(d.pop())
+
+print(d.popleft())
