@@ -39,3 +39,8 @@ print(init_count)
 for i in init_count:
     print(f"{i} : {init_count[i]}")
 
+print(c.most_common())
+
+init_count.subtract('a')
+
+print(init_count)
