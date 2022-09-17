@@ -23,5 +23,9 @@ print(wordcount('word_count.txt'))
 
 print("\n")
 
-print(wordcount('freecodecamp.txt'))
+res_count = wordcount('freecodecamp.txt')
+
+filtered = {k:v for k, v in res_count.items() if v > 1}
+
+print(filtered)
             
