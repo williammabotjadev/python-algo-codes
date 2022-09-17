@@ -30,3 +30,7 @@ print(sorted_keys)
 sorted_vals = sorted(list(d.values()))
 
 print(sorted_vals)
+
+sorted_by_vals = sorted(list(d), key=d.__getitem__)
+
+print(sorted_by_vals)
