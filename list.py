@@ -13,3 +13,6 @@ print(l)
 
 print(col.count('a'))
 
+print(col.index('a'))
+
+print(col.index('a', 4, len(col)))
