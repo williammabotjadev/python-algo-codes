@@ -34,6 +34,8 @@ if __name__ == "__main__":
     
     print(Employee.numEmployees)
 
+    print(dir(jack))
+
     del jack 
     del jill 
 
