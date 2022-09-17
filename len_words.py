@@ -1,5 +1,6 @@
 s = list("The Brown Quick Fox Jumped Over the Lazy Dog".split())
-
-sorted(s, key=len)
-
 print(s)
+s.sort(key=len)
+res = sorted(s, key=len)
+print(s)
+print(res)
