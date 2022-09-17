@@ -36,4 +36,6 @@ init_count.update({
 
 print(init_count)
 
+for i in init_count:
+    print(f"{i} : {init_count[i]}")
 
