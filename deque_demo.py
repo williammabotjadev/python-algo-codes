@@ -1,4 +1,5 @@
 from collections import deque
+import itertools
 
 d = deque("abracadabra")
 print(d)
@@ -22,3 +23,7 @@ print(d)
 d.rotate(-4)
 
 print(d)
+
+sliced_deque = list(itertools.islice(d, 3, 9))
+
+print(sliced_deque)
