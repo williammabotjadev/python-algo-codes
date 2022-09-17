@@ -6,4 +6,4 @@ nested_list = [
 
 for i in nested_list:
     for j in i:
-        print(j)
+        print(j, end=" ")
