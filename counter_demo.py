@@ -1,4 +1,6 @@
 from collections import Counter
+from curses import init_color
+from mimetypes import init
 
 c = Counter("abracadabra")
 
@@ -19,3 +21,19 @@ c_two = Counter(
 )
 
 print(c_two)
+
+init_count = Counter()
+
+print(init_count)
+
+init_count.update('abba')
+
+print(init_count)
+
+init_count.update({
+    'a': 2
+})
+
+print(init_count)
+
+
