@@ -42,4 +42,4 @@ print(res)
 
 test_six = "able was i ere i saw elba"
 
-print(test_six.lower())
+print(test_six.upper())
