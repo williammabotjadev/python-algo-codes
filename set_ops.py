@@ -8,3 +8,10 @@ print(s_one.difference(s_two))
 print(s_one.intersection(s_two))
 
 print(s_one.union(s_two))
+
+print('ab' in s_one)
+
+print('ab' not in s_one)
+
+for i in s_one:
+    print(i)
