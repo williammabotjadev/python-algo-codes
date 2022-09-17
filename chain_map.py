@@ -22,3 +22,10 @@ print(cm_one['theme'])
 cm_one.pop('theme')
 
 print(cm_one['theme'])
+
+cm_one.maps[0] = {
+    'theme': 'dessert',
+    'showIndex': False
+}
+
+print(cm_one['showIndex'])
