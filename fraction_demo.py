@@ -1,13 +1,7 @@
 import fractions 
 
-x = fractions.Fraction(3, 4)
+print(fractions.Fraction(3, 4))
 
-print(x)
+print(fractions.Fraction(0.5))
 
-y = fractions.Fraction(0.5)
-
-print(y)
-
-z = fractions("0.25")
-
-print(z)
+print(fractions("0.25"))
