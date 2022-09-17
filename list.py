@@ -10,3 +10,6 @@ l = []
 l.extend(s)
 
 print(l)
+
+print(col.count('a'))
+
