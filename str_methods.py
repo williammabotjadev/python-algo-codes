@@ -55,3 +55,7 @@ print(test_eight.replace("old", "new"))
 test_nine = "john.doe@mail.com "
 
 print(test_nine.strip())
+
+test_ten = "I have tasted command"
+
+print(test_ten.split(" "))
