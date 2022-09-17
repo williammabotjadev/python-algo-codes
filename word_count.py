@@ -19,5 +19,5 @@ def wordcount(fname):
                 count[word] += 1     
     return count 
 
-
+print(wordcount("word_count.txt"))
             
