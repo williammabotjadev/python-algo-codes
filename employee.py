@@ -32,7 +32,7 @@ class specialEmployee(Employee):
 if __name__ == "__main__":
     jack = Employee("Jack", 13.5)
     jill = Employee("Jill", 18.5)
-    joe = specialEmployee("Joe")
+    joe = specialEmployee("Joe", 20.5, 20)
 
     jill.hours(20)
     jack.hours(30)
