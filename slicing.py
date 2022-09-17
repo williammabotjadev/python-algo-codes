@@ -12,6 +12,6 @@ print(status[1 + 2])
 
 # Enumerate Characters
 
-for i in enumerate(status[0:len(status) - 1]):
+for i in enumerate(status[0:len(status)]):
     print(i)
 
