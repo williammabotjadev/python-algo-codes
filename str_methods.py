@@ -24,3 +24,13 @@ test_four = "123 is the order of things"
 
 for k in test_four:
     print(k.isalpha(), end=" ")
+
+print("\n")
+
+test_five = "123 is the order of things"
+
+for j in test_five:
+    print(j.isdigit(), end=" ")
+
+print("\n")
+
