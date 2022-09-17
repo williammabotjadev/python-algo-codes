@@ -17,3 +17,8 @@ order = [
 
 for item in order:
     print(f"Product: {item[0]} Price: {item[1]} Quantity: {item[2]} \n")
+
+order[2][1] + 12
+
+for item in order:
+    print(f"Product: {item[0]} Price: {item[1]} Quantity: {item[2]} \n")
