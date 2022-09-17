@@ -34,3 +34,7 @@ print(sorted_vals)
 sorted_by_vals = sorted(list(d), key=d.__getitem__)
 
 print(sorted_by_vals)
+
+sort_by_comp = [v for (k,v) in sorted(d.values())]
+
+print(sort_by_comp)
