@@ -11,4 +11,4 @@ for i in range(16):
 
 print(lst)
 
-print([double(x) for x in range(16) if x in [quad(y) for y in range(16)]])
+print([double(x) for x in range(64) if x in [quad(y) for y in range(16)]])
