@@ -51,3 +51,7 @@ print(test_seven.lower())
 test_eight = "old world order"
 
 print(test_eight.replace("old", "new"))
+
+test_nine = "john.doe@mail.com "
+
+print(test_nine.strip())
