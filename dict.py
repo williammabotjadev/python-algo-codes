@@ -35,6 +35,10 @@ sorted_by_vals = sorted(list(d), key=d.__getitem__)
 
 print(sorted_by_vals)
 
-sort_by_comp = [v for (k,v) in sorted(d.values())]
+sort_by_comp = [v for (k,v) in sorted(d.items())]
 
 print(sort_by_comp)
+
+sort_by_vals_rev = sorted(list(d), key=d.__getitem__, reverse=True)
+
+print(sort_by_vals_rev)
