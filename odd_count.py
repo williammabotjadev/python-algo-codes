@@ -7,7 +7,6 @@ def oddCount(min, max):
 
 # For Loop to print odd numbers
 
-for i in oddCount(0, 10):
+for i in oddCount(1, 10):
     print(i)
 
-    
