@@ -12,4 +12,5 @@ a = 1
 
 plt.plot(x, [y * y for y in x ])
 plt.plot(x, [(7 * y) * log(y, 2) for y in x])
+plt.plot(x, [(6 * y) * log(y, 2) for y in x])
 plt.show()
