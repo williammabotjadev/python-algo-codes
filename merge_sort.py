@@ -42,3 +42,25 @@ def mergesort(arr):
         arr[k] = right[j]
         k += 1
         j += 1 
+
+    return arr 
+
+import random
+
+if __name__ == "__main__":
+    
+    # Test Cases
+    lst = []
+
+    for i in range(100):
+        num = random.randint(1, 100)
+        if num not in lst:
+            lst.append(num)
+
+    print("Random Array: ")
+    print(lst)
+    result = mergesort(lst)
+    print("Sorted Array: ")
+    print(result)
+
+
