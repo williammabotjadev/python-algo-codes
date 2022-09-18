@@ -7,8 +7,12 @@ def recursive_carry(multiplicand, multiplier):
 
     products = []
 
-    while count <= len(multiplier):
-        products.append(multiplier[len(multiplier) - count] * multiplicand)
+    trailing_zeros = ""
+
+    while count <= len(str_multiplier):
+        curr_multiplier = f"{str_multiplier[len(str_multiplier) - count]}{trailing_zeros}"
+        products.append(int(curr_multiplier) * multiplicand)
+        trailing_zeros = "0" * count
         count += 1 
 
     sum = 0 
