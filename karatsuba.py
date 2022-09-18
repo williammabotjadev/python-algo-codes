@@ -1,6 +1,7 @@
 # Python implementation of the Karatsuba Algorithm
 
 from math import log10, ceil
+from unittest import result
 
 def karatsuba(x, y):
 
@@ -35,3 +36,17 @@ def karatsuba(x, y):
     # Performs the multiplication 
 
     return(((10 ** n) * ac) + bd + ((10 ** median) * (ad_bc)))
+
+import random 
+
+if __name__ == "__main__":
+    for i in range(1000):
+        x = random.randint(1, 10 ** 5)
+        y = random.randint(1, 10 ** 5)
+
+        expected = x * y 
+        result = karatsuba(x, y)
+
+        if result != expected:
+            print("Failed!")
+        print("Success!")
